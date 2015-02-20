@@ -23,7 +23,7 @@ public class Util {
 			String type = fsplit[fsplit.length - 1];
 			return type;
 		}
-		return null;
+		return "";
 	}
 	
 	public static String stringToType(String string) {
